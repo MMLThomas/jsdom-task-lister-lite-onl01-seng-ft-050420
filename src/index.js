@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     let task = document.getElementById('new-task-description').innerHTML;
     let taskList = document.getElementById('tasks');
-    taskList.appendChild("Hello")
+    taskList.appendChild()
     
   });
   
