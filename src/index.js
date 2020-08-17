@@ -3,10 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('#create-task-form').addEventListener("submit", function(event) {
     event.preventDefault();
     
-    let node = document.createElement("Li")
-    let new_node = document.createTextNode("hello")
-    node.appendChild(new_node)
-    let task = document.getElementById('new-task-description').innerHTML;
+    let node = document.createElement("Li");
+    let task = document.getElementById('new-task-description').value;
+    node.appendChild(task)
     let taskList = document.getElementById('tasks');
     taskList.appendChild(node)
     
