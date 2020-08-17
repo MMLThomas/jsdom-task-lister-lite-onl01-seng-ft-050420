@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let node = document.createElement("Li");
     let task = document.getElementById('new-task-description').value;
     let new_node = document.createTextNode("hello");
-    node.appendChild(task);
+    node.appendChild(new_node);
     let taskList = document.getElementById('tasks');
     taskList.appendChild(node);
     
