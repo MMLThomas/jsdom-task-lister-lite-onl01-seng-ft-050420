@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.addEventListener("submit", function(event)){
+  document.querySelector('form').addEventListener("submit", function(event)){
     event.preventDefault();
   }
   
